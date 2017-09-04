@@ -1,0 +1,33 @@
+O método e o nome Atributos
+
+O atributo do método especifica o método HTTP ( GET ou POST ) para ser usado quando os formulários são enviados (veja abaixo para descrição):
+<form action = "url" method = "GET" >
+
+<form action = "url" method = "POST " >
+
+Quando você usa o GET , os dados do formulário estarão visíveis no endereço da página. 
+
+Use o POST se o formulário estiver atualizando dados ou inclua informações confidenciais (senhas). 
+O POST oferece uma melhor segurança porque os dados enviados não estão visíveis no endereço da página.
+
+O atributo name especifica um nome para um formulário. 
+
+Para aceitar a entrada do usuário, Você precisa dos elementos de formulário correspondentes, como campos de texto. O elemento <input> tem muitas variações, dependendo do atributo de tipo. Pode ser um texto, senha, rádio, URL, envio, etc. 
+
+O exemplo abaixo mostra um formulário que solicita um nome de usuário e senha:
+<Form>
+    < input type = " text " name = "username" /> <br />
+    < input type = " password " name = "password" /> 
+</ form>
+
+Elementos do formulário
+
+Se mudarmos o tipo de entrada para o rádio , ele permite ao usuário selecionar apenas uma das várias opções:
+<Input type = " radio " name = "gender" value = " male " /> Male <br /> 
+<input type = " radio " name = "gender" value = " female " /> Female <br />
+
+<Input type = " checkbox " name = "gender" value = "1" /> Male <br /> 
+<input type = " checkbox " name = "gender" value = "2" /> Female <br />
+   
+
+
