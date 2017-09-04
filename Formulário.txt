@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Formulário</title>
+  </head>
+  <body>
+      <head><center>Ficha de Inscrição</center></head>
+    <form>
+      <div>
+        <label for="Email">Endereço de e-mail:</label>
+        <input type="email" name="email"/>
+        </div>
+      <div>
+          <label for="Nome">Nome:</label>
+            <input type="nome" name="nome"/>
+      </div>
+      <div>
+        <label for="sexo">Sexo:</label>
+                    <select name="Sexo">
+                    <option diabled selected/>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Femonino</option>
+                    </select>
+      </div>
+      <div>
+        <label for="curso">Curso:</label>
+        <select name="Curso">
+          <option diabled selected/>
+          <option value="tec.informatica">Técnico de Informatica</option>
+          <option value="tec.alimentos">Técnico em Alimentos</option>
+          <option value="tec.agropec">Técnico em Agropecuária</option>
+        </select>
+      </div>
+      <div>
+        <label for="end.correspondência">Endereço para Correspondência</label>
+        <input type="correspondência" name= "Endereço para Correspondência" />
+      </div>
+      <div>
+    
+  </body>
+</html>
