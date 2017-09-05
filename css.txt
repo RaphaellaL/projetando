@@ -1,0 +1,38 @@
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+
+input{
+    display: inline-block;
+    width: 250px;
+}
+
+.municipio{
+    width: 200px;
+}
+
+.cep{
+    width: 150px;
+}
+
+select{
+    display: inline-block;
+}
+
+.uf{
+    width: 45px;
+}
+
+button{
+    display: inline-block;
+    margin-left: 250px; 
+    float: left;
+}
+
+.limpar{
+     display: inline-block
+}
